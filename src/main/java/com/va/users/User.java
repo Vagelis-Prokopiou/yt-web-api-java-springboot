@@ -7,7 +7,13 @@ public class User {
     public int age;
     public String Framework;
 
-    public User(int id, String firstName, String lastName, int age, String framework) {
+    public User(
+            int id,
+            String firstName,
+            String lastName,
+            int age,
+            String framework
+    ) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
